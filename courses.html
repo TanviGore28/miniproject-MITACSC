@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Courses - MIT ACSC</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body{
+      background:#e6f5ff;
+      font-family: Arial, sans-serif;
+    }
+    .banner{
+      height:220px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background-color:#bfefff;
+    }
+    .banner img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+    .center-img{
+      max-width:450px;
+      width:100%;
+      border-radius:12px;
+      margin-top:25px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+
+<body>
+
+ 
+
+
+  <div class="container text-center">
+    <h1 class="text-primary mt-4 fw-bold">Courses at MIT ACSC</h1>
+    <p class="fs-5 text-secondary">Explore our academic programs</p>
+
+   
+    <img src="courses2.png" alt="Course Image" class="center-img">
+
+    
+    <div class="accordion mt-4" id="courseAccordion">
+
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            B.Sc Computer Science
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#courseAccordion">
+          <div class="accordion-body">
+            This course includes programming, data structures, SQL, web development and practical labs.
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            BCA - Bachelor of Computer Applications
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+          <div class="accordion-body">
+            A professional course focused on computer applications, software development and networking.
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            B.Com - Commerce Program
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+          <div class="accordion-body">
+            Includes accounting, business laws, taxation, management and commerce fundamentals.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <a href="WDB.html" class="btn btn-primary mt-4">Back to Home</a>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
